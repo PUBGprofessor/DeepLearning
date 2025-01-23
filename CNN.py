@@ -276,7 +276,7 @@ for i in range(test.shape[0]):
     test[i][t_[i]] = 1
 # network = Network3(init_network())
 network = SimpleConvNet()
-batch_size = 100 # 批数量
+batch_size = 100  # 批数量
 # accuracy_cnt = 0
 loss_ave = 0
 # optimizer = Momentum(0.0001, 0.8)
